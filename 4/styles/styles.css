@@ -1,0 +1,190 @@
+h1,h2,h3{
+    font-family:'PT Sans', sans-serif;
+}
+p{
+    font-family:'PT Sans', sans-serif;
+}
+li{
+    list-style: none; 
+    font-size: 20px; 
+    font-family:'PT Sans', sans-serif; 
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+
+} 
+
+h1{
+    font-size:30px; 
+    text-align: center; 
+    Line-height:36px; 
+    font-weight:700px;  
+    
+} 
+.main>p{
+    color:#333333; 
+    text-align: center; 
+    font-size:22px; 
+    Line-height:26px; 
+    font-weight: 400px;
+}  
+
+.one>p{ 
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+}
+
+.two>h1{
+   
+    text-align: center; 
+    font-size:30px;
+}  
+.two>h2{
+font-size: 24px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+} 
+
+.info-p{
+    color:#333333;   
+    text-align: center;  
+    font-size:22px;
+
+} 
+.data{
+    color:#333333;   
+    text-align: center;  
+    font-size:22px;
+} 
+.e-mail{  
+    display: block; 
+    margin:auto;
+   
+} 
+ 
+
+header>ul>li>button{
+width: 160px;
+height: 36px;
+padding: 8px, 50px, 8px, 50px;
+border-radius: 4px;
+gap: 10px; 
+background-color:#756157; 
+color:white;
+}
+
+.two>button{
+    width: 376px;
+    height: 52px;
+    padding: 8px, 50px, 8px, 50px;
+    border-radius: 4px;
+    gap: 10px; 
+    background-color:#756157; 
+    color:white;
+
+}
+
+
+.info-two{
+
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+text-align: center;
+
+}
+
+
+.card>h3{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+
+.card>p{
+font-family: 'PT Sans';
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.button-one{
+ width: 140px;
+height: 36px;
+padding: 8px, 50px, 8px, 50px;
+border-radius: 4px;
+gap: 10px; 
+background-color: #756157; 
+color:white;
+
+} 
+
+.button-favourites{
+    width: 140px;
+   height: 36px;
+   padding: 8px, 50px, 8px, 50px;
+   border-radius: 4px;
+   gap: 10px; 
+   background-color: #82B3D3; 
+   color:white;
+   
+   } 
+
+
+.button-get{
+    width: 191px;
+    height:  36px;
+    padding: 8px, 50px, 8px, 50px;
+    border-radius: 4px;
+    gap: 10px; 
+    background-color: #82B3D3; 
+   color:white;
+} 
+
+
+.button-cancel{
+width: 191px;
+height: 36px;
+padding: 8px, 50px, 8px, 50px;
+gap: 10px; 
+background-color: transparent; 
+border-radius: 4px; 
+
+} 
+
+.infa>p{
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+} 
+
+.infa>label{
+font-family: 'PT Sans';
+font-size: 18px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+
+} 
+
+.button-favourites-green{
+    width: 140px;
+   height: 36px;
+   padding: 8px, 50px, 8px, 50px;
+   border-radius: 4px;
+   gap: 10px; 
+   background-color:#7DB54F; 
+   color:white;
+   
+   } 

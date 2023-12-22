@@ -5,22 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Catalog</title>
 </head>
 <body> 
-    <header> 
-        <img src="image/logo.svg" alt="Логотип"> 
-            <ul>
-                <li>Главная</li>
-                <li>О седоне</li>
-                <li>Гостиницы</li> 
-                <li><img src="image/Поиск.png" alt="иконка"></li>
-                <li><img src="image/heart.png" alt="иконка"></li>
-                <li><button>ХОЧУ СЮДА!</button></li>
-            </ul>
-    </header>   
+    <header>  
+        <div class="wrap-logo">
+        <img src="image/logo.svg" alt="Логотип">  
+        </div> 
+        <nav>
+            <a  href="#">Главная</a>
+            <a href="#">О седоне</a>
+            <a href="#">Гостиницы</a>  
+            <a href="#"><img src="image/Поиск.png" alt="лупа"></a> 
+            <a href="#"><img src="image/heart.png" alt="сердце"></a>  
+            <button class="button-header">ХОЧУ СЮДА!</button>  
+          </nav>       
+    </header> 
     <div class="infa">
-    <img src="#" alt="фон"> 
+    <img src="#" alt=""> 
     <h1>Гостиницы Седоны</h1>
     <img src="image/home.png" alt="иконка дома">
     <img src="image/breadcrumbs.svg" alt="иконка дома">
@@ -60,7 +62,7 @@
     <img src="image/variant=slideshow.png" alt="иконка">
     <img src="image/variant=tile.png" alt="иконка"> 
    
-
+    <div class="card-flex">
     <div class="card">   
         <img src="image/hotel-1.jpg" alt="1 карточка">
         <h3>Amara Resort & Spa</h3> 
@@ -101,13 +103,15 @@
         <img src="image/Звёзды (2).png" alt="звёздочки">
         <button>РЕЙТИНГ:5,0</button>
     </div>  
+    </div>
     <br>
-    <button>1</button>
-    <button>2</button>
-    <button>3</button>
-    <button>4</button>
-    <button>...</button>
-    <button>10</button>
+    <button class="but-white-catalog">1</button>
+    <button class="but-blue-catalog">2</button>
+    <button class="but-blue-catalog">3</button>
+    <button class="but-blue-catalog">4</button>
+    <button class="but-white-catalog">...</button>
+    <button class="but-blue-catalog">10</button>
+    
 
 
     <br> 
@@ -116,15 +120,15 @@
     </section>
 
 
-    <footer>  
-        <ul>
-        <li><img src="image/social-vk.png" alt="ВК"></li> 
-        <li><img src="image/social-telegram.png" alt="Телеграмм"></li>   
-        <li><img src="image/social-youtube.png" alt="Ютуб"></li>    
-        <li></li><h2>+7 (812) 812-12-12</h2></li>  
-        <li></li><img src="image/logo_htmlacademy.png" alt="Логотип"></li>  
-        </ul>    
-    </footer>
+    <footer> 
+        <nav class="footer-nav">
+         <a href=""><img src="image/social-vk.png" alt="ВК" class="vk"></a> 
+         <a href=""><img src="image/social-telegram.png" alt="Телеграмм"></a>
+         <a href=""><img src="image/social-youtube.png" alt="Ютуб"></a>
+         <a href="" class="phone">+7 (812) 812-12-12</a>
+         <a href=""><img src="image/logo_htmlacademy.png" alt="Логотип" class="logo-footer"></a>
+        </nav>
+     </footer>
     
 </body>
 </html>

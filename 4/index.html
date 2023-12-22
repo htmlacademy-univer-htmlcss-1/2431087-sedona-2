@@ -11,18 +11,22 @@
   <base href="https://htmlacademy-univer-htmlcss-1.github.io/2431087-sedona-2/4/">
 </head>
 <body>  
-    <header> 
-        <img src="image/logo.svg" alt="Логотип"> 
-            <ul>
-                <li >Главная</li>
-                <li>О седоне</li>
-                <li>Гостиницы</li> 
-                <li><img src="image/Поиск.png" alt="лупа"></li>
-                <li><img src="image/heart.png" alt="сердце"></li>
-                <li><button>ХОЧУ СЮДА!</button></li>
-            </ul>
+    <header>  
+        <div class="wrap-logo">
+        <img src="image/logo.svg" alt="Логотип">  
+        </div> 
+        <nav>
+            <a  href="#">Главная</a>
+            <a href="#">О седоне</a>
+            <a href="#">Гостиницы</a>  
+            <a href="#"><img src="image/Поиск.png" alt="лупа"></a> 
+            <a href="#"><img src="image/heart.png" alt="сердце"></a>  
+            <button class="button-header">ХОЧУ СЮДА!</button>  
+
+
+          </nav>       
     </header>  
-    <img src="image/index-background.jpg" alt="Начальная страница">   
+    <img class="main" src="image/index-background.jpg" alt="Начальная страница">   
     <br> 
     <div class="main">
     <h1>Седона — небольшой городок в Аризоне,<br>
@@ -45,44 +49,58 @@
     <section class="two">
         <img src="image/photo-2.jpg" alt="мост дьявола" width="800px" height="385px">  
         <h2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
-        <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+        <p class="demon">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
         <br> 
         <h1>Приезжайте в Седону отдохнуть в комфорте и уюте!</h1> 
         <p class="info-p">Опытный персонал и качественное обслуживание!</p> 
-        <img src="image/Advantage-icon.png" alt="иконка жилья"> 
-        <h3>Жильё</h3> 
-        <p class="info-two">Рекомендуем пожить в настоящем мотеле, 
-            всё как в кино!</p> 
-        <img src="image/Advantage-icon (1).png" alt="иконка еды"> 
-        <h3>Еда</h3> 
-        <p class="info-two">Всегда заказывайте
-            топовый фирменный бургер, вы не разочаруетесь!</p> 
-        <img src="image/Advantage-icon (2).png" alt="иконка сувениров"> 
-        <h3>Сувениры</h3> 
-        <p class="info-two">Не только китайского, 
-            но и настоящего местного производства!</p> 
-        <br>
+        <div class="flex">
+        <ul class="add-list-blue">
+            <li> <img  class="image-li"src="image/Advantage-icon.png" alt="иконка жилья"></li> 
+            <li class="li-tittle">Жильё</li>
+            <li class="li-info">Рекомендуем пожить в настоящем мотеле, 
+                всё как в кино!</li> 
+        </ul> 
+        <ul class="add-list">
+            <li > <img class="image-li" src="image/Advantage-icon (1).png" alt="иконка еды"></li> 
+            <li class="li-tittle">Еда</li>
+            <li class="li-info">Всегда заказывайте
+                топовый фирменный бургер, вы не разочаруетесь!</li> 
+        </ul> 
+        <ul class="add-list-blue">
+            <li> <img class="image-li" src="image/Advantage-icon (2).png" alt="иконка сувениров"></li> 
+            <li class="li-tittle">Сувениры</li>
+            <li class="li-info">Не только китайского, 
+                но и настоящего местного производства!</li> 
+        </ul> 
+        </div>
+        <br> 
         <h1>ЗАИНТЕРЕСОВАЛИСЬ?</h1> 
         <p class="data">Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p> 
-        <button>ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button> 
+        <button class="button-section-two">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</button> 
     </section>
     
 
 
     <br> 
     <section class="tree">
-        <img src="image/Subscribe.png" alt="горы с размытием" class="e-mail">   
+        <img src="image/Subscribe.png" alt="горы с размытием" class="e-mail" width="1200px" height="414.86px">   
     </section>
 
     <footer> 
-        <ul>
-        <li><img src="image/social-vk.png" alt="ВК" class="vk"></li> 
-        <li><img src="image/social-telegram.png" alt="Телеграмм"></li>   
-        <li><img src="image/social-youtube.png" alt="Ютуб"></li>    
-        <li></li><h2>+7 (812) 812-12-12</h2></li>  
-        <li></li><img src="image/logo_htmlacademy.png" alt="Логотип" class="logo-footer"></li>  
-        </ul>    
+       <nav class="footer-nav">
+        <a href=""><img src="image/social-vk.png" alt="ВК" class="vk"></a> 
+        <a href=""><img src="image/social-telegram.png" alt="Телеграмм"></a>
+        <a href=""><img src="image/social-youtube.png" alt="Ютуб"></a>
+        <a href="" class="phone">+7 (812) 812-12-12</a>
+        <a href=""><img src="image/logo_htmlacademy.png" alt="Логотип" class="logo-footer"></a>
+       </nav>
     </footer>
-    
 </body>
-</html>
+</html> 
+
+
+
+
+
+
+

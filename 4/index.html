@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
 
     <title>Sedona</title>
   <base href="https://htmlacademy-univer-htmlcss-1.github.io/2431087-sedona-2/4/">
@@ -16,17 +16,24 @@
         <img src="image/logo.svg" alt="Логотип">  
         </div> 
         <nav>
-            <a  href="#">Главная</a>
+
+            <a  href="#" >Главная</a>
             <a href="#">О седоне</a>
             <a href="#">Гостиницы</a>  
+            
             <a href="#"><img src="image/Поиск.png" alt="лупа"></a> 
             <a href="#"><img src="image/heart.png" alt="сердце"></a>  
-            <button class="button-header">ХОЧУ СЮДА!</button>  
-
-
+            <button class="button-header" id="myButton" >ХОЧУ СЮДА!</button>  
           </nav>       
     </header>  
-    <img class="main" src="image/index-background.jpg" alt="Начальная страница">   
+    <div class="main-index-main"> 
+        <br>
+        <img class="Vector" src="image/Vector.png" alt="">
+        <br>
+        <img class="Vector" src="image/Vector-2.png" alt="">
+        <br>
+        <img  class="Vector" src="image/Vector-3.png" alt="">
+    </div>
     <br> 
     <div class="main">
     <h1>Седона — небольшой городок в Аризоне,<br>
@@ -34,22 +41,38 @@
     <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>   
     </div>
     <br>  
-    <section class="one">
-        <h2>НАСТОЯЩИЙ ГОРОДОК</h2> 
-        <p>Седона-не аттракцион для туристов, там течёт своя жизнь</p> 
-        <img src="image/photo-1.jpg" alt="красивый храм"> 
-        <h2>НЕБОЛЬШАЯ ПЛОЩАДЬ</h2> 
-        <p>Все достопримечательности находятся очень близко</p> 
-        <h2>КРАСИВАЯ ДОРОГА</h2>  
-        <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-        <h2>МАЛО ТУРИСТОВ</h2>  
-        <p>Большинство едет в Гранд Каньон и толпится там</p>
+    <section class="one"> 
+        <div class="main-h2-img">
+            <div class="main-h2">
+            <h2>НАСТОЯЩИЙ ГОРОДОК</h2> 
+            <p>Седона-не аттракцион для туристов, там течёт своя жизнь</p>  
+            </div>
+            <img class="img-h2"      src="image/photo-1.jpg" alt="красивый храм"> 
+        </div>
+        <div class="advantage-main-index">
+            <div class="advantage">
+            <h2>НЕБОЛЬШАЯ ПЛОЩАДЬ</h2> 
+            <p>Все достопримечательности находятся очень близко</p> 
+            </div>
+            <div class="advantage-grey">
+            <h2>КРАСИВАЯ ДОРОГА</h2>  
+            <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p> 
+            </div>
+            <div class="advantage">
+            <h2>МАЛО ТУРИСТОВ</h2>  
+            <p>Большинство едет в Гранд Каньон и толпится там</p> 
+            </div> 
+        </div>
     </section> 
 
     <section class="two">
-        <img src="image/photo-2.jpg" alt="мост дьявола" width="800px" height="385px">  
-        <h2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
-        <p class="demon">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
+        <div class="main-h2-img">
+            <img src="image/photo-2.jpg" alt="мост дьявола" width="800px" height="385px"> 
+            <div class="main-h2">
+            <h2>ТАМ ЕСТЬ МОСТ ДЬЯВОЛА</h2>
+            <p class="demon">Да, по нему можно пройти! Если вы осмелитесь, разумеется</p> 
+            </div> 
+        </div>
         <br> 
         <h1>Приезжайте в Седону отдохнуть в комфорте и уюте!</h1> 
         <p class="info-p">Опытный персонал и качественное обслуживание!</p> 
@@ -80,20 +103,19 @@
     </section>
     
 
-
+    <br>
     <br> 
     <section class="tree">
-        <img src="image/Subscribe.png" alt="горы с размытием" class="e-mail" width="1200px" height="414.86px">   
+        
     </section>
-
+   
     <footer> 
-       <nav class="footer-nav">
+      
         <a href=""><img src="image/social-vk.png" alt="ВК" class="vk"></a> 
         <a href=""><img src="image/social-telegram.png" alt="Телеграмм"></a>
         <a href=""><img src="image/social-youtube.png" alt="Ютуб"></a>
         <a href="" class="phone">+7 (812) 812-12-12</a>
         <a href=""><img src="image/logo_htmlacademy.png" alt="Логотип" class="logo-footer"></a>
-       </nav>
     </footer>
 </body>
 </html> 

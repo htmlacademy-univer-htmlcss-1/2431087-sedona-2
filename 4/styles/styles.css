@@ -59,7 +59,10 @@ text-align: center;
     text-align: center;  
     font-size:22px;
 } 
-.e-mail{  
+.tree{
+    height: 485px; /* Высота блока */
+    background: url("image/Subscribe.png") 100% 100% no-repeat; 
+   background-size: cover; /* Масштабируем фон */
     display: block; 
     margin:auto;
    
@@ -126,6 +129,7 @@ border-radius: 4px;
 gap: 10px; 
 background-color: #756157; 
 color:white;
+border-color:#756157;
 
 } 
 
@@ -137,6 +141,7 @@ color:white;
    gap: 10px; 
    background-color: #82B3D3; 
    color:white;
+   border-color:#82B3D3;
    
    } 
 
@@ -148,7 +153,11 @@ color:white;
     border-radius: 4px;
     gap: 10px; 
     background-color: #82B3D3; 
-   color:white;
+   color:white; 
+   border-color:#82B3D3;
+   position: relative;
+   left: 1200px;
+   bottom: 120px;
 } 
 
 
@@ -159,6 +168,11 @@ padding: 8px, 50px, 8px, 50px;
 gap: 10px; 
 background-color: transparent; 
 border-radius: 4px; 
+color:white; 
+border: none; 
+position: relative;
+left: 1200px;
+bottom: 100px;
 
 } 
 
@@ -185,7 +199,8 @@ text-align: left;
    border-radius: 4px;
    gap: 10px; 
    background-color:#7DB54F; 
-   color:white;
+   color:white; 
+   border-color:#7DB54F;
    
    }  
 
@@ -234,7 +249,8 @@ text-align: left;
     border-radius: 4px;
     gap: 10px; 
     background-color: #756157; 
-    color:white;
+    color:white; 
+    border-color:#756157;
 }
 
 
@@ -279,6 +295,8 @@ footer {
     height: 385px;
     padding: 80px, 85px, 80px, 85px;
     gap: 10px; 
+    text-align: center; 
+    padding-top: 100px;
 } 
 
 .add-list-blue{
@@ -287,6 +305,8 @@ footer {
     padding: 80px, 85px, 80px, 85px;
     gap: 10px; 
     background-color: #83B3D31F;
+    text-align: center; 
+    padding-top: 100px;
 } 
 
 .li-info{
@@ -322,6 +342,7 @@ text-align: center;
 
 .flex{
     display: flex;
+    justify-content:center;
 
 }
 h2{
@@ -341,12 +362,159 @@ h2{
     width: 40px;
     height: 36px;
     background-color: #82B3D3; 
+    border-color: #82B3D3;
     color:white;
 } 
 
 .but-white-catalog{
     width: 40px;
     height: 36px;
-    background-color: grey; 
-    color:white;
+    background-color: #F2F2F2; 
+    border-color: #F2F2F2; 
+    color:black;
+} 
+
+.catalog-main-hotel{
+    display: flex;
+} 
+
+.catalog-h1-hotel{
+    text-align: left;
+} 
+.catalog-image-main{
+    display: flex; 
+    align-content: center;
+} 
+
+
+
+
+.Vector{
+    display: block; 
+    margin: auto;
+}
+.main-index-main{
+    height: 485px; /* Высота блока */
+    background: url("image/index-background.jpg") 100% 100% no-repeat; 
+   display: block;
+   margin: auto; 
+   background-size: cover; /* Масштабируем фон */
+} 
+
+.phone{
+    display:block; 
+    margin: auto;
+}
+
+
+
+.main-h2{
+    background-color: #82B3D3;
+    width:400px;
+    height:385px; 
+    color:white; 
+    text-align: center; 
+    padding-top: 80px;
+    
+}
+
+
+.main-h2-img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.advantage{
+    width: 400px;
+    height: 385px; 
+    background-color: #83B3D31F;
+    text-align: center;
+    padding-top: 80px;
+}  
+
+.advantage-grey{
+    width: 400px;
+    max-height: 385px; 
+    background-color: #83B3D333;
+    text-align: center;
+    padding-top: 80px;
+
+}
+
+
+
+.advantage-main-index{
+    display: flex; 
+    justify-content: center;
+} 
+
+.favorit{
+    width: 140px;
+    height: 37px;
+    left: 160px;
+    border-radius: 4px;
+    border-color: #F2F2F2;
+    background-color:#F2F2F2;
+}
+
+.catalog-image-main{
+    display: flex;
+    justify-content: flex-end; 
+    gap: 30px;
+} 
+
+
+.price{
+    position: relative; 
+    left: 200px;
+    bottom:40px;
+} 
+
+
+
+
+
+.main-catalog-main{
+    height: 485px; /* Высота блока */
+    background: url("image/index-background.jpg") 100% 100% no-repeat; 
+   display: block;
+   margin: auto; 
+   background-size: cover; /* Масштабируем фон */
+   color:white;
+}  
+
+
+.catalog-h1{
+    text-align: start;  
+    position: relative;
+    left: 50px;
+} 
+
+
+
+.class{
+    display: flex;
+    
+} 
+
+#null{
+    width: 143px;
+    height: 48px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 4px, 0px, 0px, 4px;
+} 
+
+#none{
+    width: 143px;
+    height: 48px;
+    padding: 12px, 20px, 12px, 20px;
+    border-radius: 4px, 0px, 0px, 4px;
+} 
+
+
+.inpute-price{
+    position: relative;
+    left: 600px;
+    bottom:80px; 
 }

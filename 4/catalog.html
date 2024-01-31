@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet"> 
     <title>Catalog</title>
   <base href="https://htmlacademy-univer-htmlcss-1.github.io/2431087-sedona-2/4/">
 </head>
@@ -16,95 +17,106 @@
         <nav>
             <a  href="#">Главная</a>
             <a href="#">О седоне</a>
-            <a href="#">Гостиницы</a>  
+            <a href="#">Гостиницы </a>  
             <a href="#"><img src="image/Поиск.png" alt="лупа"></a> 
             <a href="#"><img src="image/heart.png" alt="сердце"></a>  
             <button class="button-header">ХОЧУ СЮДА!</button>  
           </nav>       
-    </header> 
-    <div class="infa">
-    <img src="#" alt=""> 
-    <h1>Гостиницы Седоны</h1>
-    <img src="image/home.png" alt="иконка дома">
-    <img src="image/breadcrumbs.svg" alt="иконка дома">
-    <p>Гостиницы</p> 
-    <p>Инфраструктура:</p>   
-    <input type="checkbox" checked>   
-    <label>Бассейн</label>
-    <input type="checkbox" checked>   
-    <label>Парковка</label>
-    <input type="checkbox" >  
-    <label>WI-FI</label>
-    <p>Тип Жилья:</p> 
-    <input type="radio" checked>   
-    <label>Гостница</label>
-    <input type="radio" >   
-    <label>Мотель</label>
-    <input type="radio" >  
-    <label>Апартаменты</label> 
-    <h3>Стоимость,P:</h3>  
-    <textarea name="#" id="#" cols="5" rows="1">0</textarea> 
-    <textarea name="#" id="#" cols="5" rows="1">9000</textarea> 
-    <br>
-    <button class="button-get">ПРИМЕНИТЬ</button> 
-    <br>
-    <button class="button-cancel">СБРОСИТЬ</button> 
+    </header>  
+    <div class="main-catalog-main">
+        <div class="infa">
+        <img src="#" alt=""> 
+        <h1 class="catalog-h1">Гостиницы Седоны</h1>
+        <div class="catalog-main-hotel">
+        <img src="image/home.png" alt="иконка дома">
+        <img src="image/breadcrumbs.svg" alt="иконка дома">
+        <p>Гостиницы</p>  
+        </div>
+        <p>Инфраструктура:</p> 
+        <div class="class">
+        <input type="checkbox" checked>   
+        <label>Бассейн</label>
+        <input type="checkbox" checked>   
+        <label>Парковка</label>
+        <input type="checkbox" >  
+        <label>WI-FI</label> 
+        </div>
+        <p>Тип Жилья:</p> 
+        <input type="radio" checked>   
+        <label>Гостница</label>
+        <input type="radio" >   
+        <label>Мотель</label>
+        <input type="radio" >  
+        <label>Апартаменты</label> 
+        <div class="inpute-price"> 
+        <h3>Стоимость,P:</h3>  
+         <input type="text" name="" id="null" placeholder="0">
+         <input type="text" id="none" placeholder="9000"> 
+        </div> 
+        <br>
+        <button class="button-get">ПРИМЕНИТЬ</button> 
+        <br>
+        <button class="button-cancel">СБРОСИТЬ</button> 
+        </div> 
     </div>
 
 
 
 
 
-    <h1>НАЙДЕНО ГОСТИНИЦ:38</h1>   
+    <h1 class="catalog-h1-hotel">НАЙДЕНО ГОСТИНИЦ:38</h1>   
+    <div class="catalog-image-main">
     <select>
         <option>Сначала дешевые</option>
       </select>
     <img src="image/variant=list.png" alt="иконка">
     <img src="image/variant=slideshow.png" alt="иконка">
-    <img src="image/variant=tile.png" alt="иконка"> 
+    <img src="image/variant=tile.png" alt="иконка">  
+    </div>
    
     <div class="card-flex">
     <div class="card">   
         <img src="image/hotel-1.jpg" alt="1 карточка">
         <h3>Amara Resort & Spa</h3> 
-        <p>Гостиница</p> 
-        <p> от 4000 р</p> 
+        <p >Гостиница </p> 
+        <p class="price"> От 4000 р</p> 
         <button class="button-one">ПОПОДРОБНЕЕ</button>
         <button class="button-favourites">В ИЗБРАННОЕ</button>
         <img src="image/Звёзды.png" alt="звёздочки">
-        <button>РЕЙТИНГ:8,5</button>
+        <button class="favorit">РЕЙТИНГ:8,5</button>
     </div> 
     <div class="card">   
         <img src="image/hotel-2.jpg" alt="2 карточка">
         <h3>Villas at Poco Diablo</h3> 
         <p>Гостиница</p> 
-        <p> от 5000 р</p> 
+        <p class="price"> От 5000 р</p> 
         <button class="button-one">ПОПОДРОБНЕЕ</button>
         <button class="button-favourites-green">В ИЗБРАННОЕ</button>
         <img src="image/Звёзды.png" alt="звёздочки">
-        <button>РЕЙТИНГ:9,2</button>
+        <button class="favorit" >РЕЙТИНГ:9,2</button>
     </div> 
     <div class="card">   
         <img src="image/hotel-3.jpg" alt="3 карточка">
         <h3>Desert Quail Inn</h3> 
         <p>Гостиница</p> 
-        <p> от 2500 р</p> 
+        <p class="price"> От 2500 р</p> 
         <button class="button-one">ПОПОДРОБНЕЕ</button>
         <button class="button-favourites">В ИЗБРАННОЕ</button>
         <img src="image/Звёзды (1).png" alt="звёздочки">
-        <button>РЕЙТИНГ:6,9</button>
+        <button class="favorit" >РЕЙТИНГ:6,9</button>
     </div> 
     <div class="card">   
         <img src="image/hotel-4.jpg" alt="4 карточка">
         <h3>GreenTree Inn</h3> 
         <p>Гостиница</p> 
-        <p> от 1500 р</p> 
+        <p class="price"> От 1500 р</p> 
         <button class="button-one">ПОПОДРОБНЕЕ</button>
         <button class="button-favourites">В ИЗБРАННОЕ</button>
         <img src="image/Звёзды (2).png" alt="звёздочки">
-        <button>РЕЙТИНГ:5,0</button>
+        <button class="favorit">РЕЙТИНГ:5,0</button>
     </div>  
     </div>
+    <br>
     <br>
     <button class="but-white-catalog">1</button>
     <button class="but-blue-catalog">2</button>
@@ -114,21 +126,19 @@
     <button class="but-blue-catalog">10</button>
     
 
-
+    <br>
+    <br>
     <br> 
     <section class="tree">
-        <img src="image/Subscribe.png" alt="горы с размытием" class="e-mail">   
+           
     </section>
-
-
+    
     <footer> 
-        <nav class="footer-nav">
          <a href=""><img src="image/social-vk.png" alt="ВК" class="vk"></a> 
          <a href=""><img src="image/social-telegram.png" alt="Телеграмм"></a>
          <a href=""><img src="image/social-youtube.png" alt="Ютуб"></a>
          <a href="" class="phone">+7 (812) 812-12-12</a>
          <a href=""><img src="image/logo_htmlacademy.png" alt="Логотип" class="logo-footer"></a>
-        </nav>
      </footer>
     
 </body>
